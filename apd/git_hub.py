@@ -236,3 +236,10 @@ def population_total(data,d_transpose):
 data,d_transpose = data_("D:\\a\\new_data.xlsx")
 print(data)
 print(d_transpose)
+# creating a dataframe india
+india = pd.DataFrame()
+# creating a dataframe benin
+benin = pd.DataFrame()
+# creating a dataframe angola
+angola = pd.DataFrame()
+#calling function co2
