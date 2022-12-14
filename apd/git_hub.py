@@ -298,3 +298,8 @@ corr_india(india)
 corr_benin(benin)    
 #calling function corr_angola
 corr_angola(angola)
+# using scipy.stats to check pearson relation between dataframe
+print(st.pearsonr(india["Population, total"],india["CO2 emissions (kt)"]))
+print(st.pearsonr(angola["Access to electricity (% of population)"],angola["CO2 emissions (kt)"]))
+print(st.pearsonr(benin["Renewable energy consumption"],benin["CO2 emissions (kt)"]))
+print(st.pearsonr(india["Population, total"],benin["CO2 emissions (kt)"]))
