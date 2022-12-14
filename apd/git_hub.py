@@ -292,3 +292,9 @@ renew_energy(data,d_transpose)
 urban_population(data,d_transpose)  
 #calling function population_total
 population_total(data,d_transpose)
+#calling function corr_india 
+corr_india(india)
+#calling function corr_benin
+corr_benin(benin)    
+#calling function corr_angola
+corr_angola(angola)
